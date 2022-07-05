@@ -142,7 +142,7 @@ emailForm.addEventListener("submit", (e) => {
     console.table(formData);
 
     fetch(emailURL, {
-        method: POST,
+        method: "POST",
         headers: {
             "Content-Type": "application/json"
         },
