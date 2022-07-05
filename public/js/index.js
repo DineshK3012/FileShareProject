@@ -118,7 +118,7 @@ const onUploadSuccess = ({ file: url }) => {
     resetFileInput();
     emailForm[2].removeAttribute("disabled");
     progressContainer.style.display = "none";
-    progressContainer.style.display = "block";
+    sharingContainer.style.display = "block";
     fileURL.value = url;
 }
 
